@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>On My Grind</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/2935/2935285.png" alt="logo">
+      <h1>On My Grind</h1>
+    </div>
+    <p>So you think you can barista? Let's put that to the test...</p>
+  </header>
+
+  <div class="drink-name-wrapper">
+    <div class="drink-name" id="drink-name"></div>
+    <button id="refreshBtn" title="New Drink">↻</button><!-- refresh button -->
+  </div>
+
+  <div class="options">
+    <div class="option">
+      <label>Temperature</label>
+      <input id="temperature" readonly>
+      <div class="suggestion">
+        <div>hot</div>
+        <div>lukewarm</div>
+        <div>cold</div>
+      </div>
+    </div>
+
+    <div class="option">
+      <label>Syrup</label>
+      <input id="flavor" readonly>
+      <div class="suggestion">
+        <div>mocha</div>
+        <div>vanilla</div>
+        <div>toffee</div>
+        <div>maple</div>
+        <div>caramel</div>
+        <div>other</div>
+        <div>none</div>
+      </div>
+    </div>
+
+    <div class="option">
+      <label>Milk</label>
+      <input id="milk" readonly>
+      <div class="suggestion">
+        <div>cow</div>
+        <div>oat</div>
+        <div>goat</div>
+        <div>almond</div>
+        <div>none</div>
+      </div>
+    </div>
+
+    <div class="option">
+      <label>Blended</label>
+      <input id="blended" readonly>
+      <div class="suggestion">
+        <div>yes</div>
+        <div>turbo</div>
+        <div>no</div>
+      </div>
+    </div>
+  </div>
+
+  <button id="checkBtn">Check Answer</button>
+  <!-- <button id="newBtn" style="display: none;"><span>New Drink</span></button> -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
